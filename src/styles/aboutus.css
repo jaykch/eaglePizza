@@ -1,0 +1,35 @@
+#about{
+   display: -ms-flexbox!important;
+   display: flex!important;
+   -ms-flex-preferred-size: auto;
+   flex-basis: auto;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.aboutustext {
+   text-align: center;
+   padding-top: 3%;
+   padding-bottom: 2%;
+   max-width: 500px;
+}
+.about-us-pics{
+   /* text-align: center; */
+   display: block;
+   margin: auto;
+   width: 96%;
+   padding-bottom: 5%;
+}
+.boundary{
+   page-break-after: auto;
+   color: orange;
+}
+hr{
+   border-color: #e29503;
+   width: 96%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 0%;
+}

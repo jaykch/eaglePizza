@@ -1,0 +1,123 @@
+@import "basscss";
+@import "basscss-colors";
+@import "basscss-background-colors";
+@import "./borders";
+@import "./shame";
+@import "./navbar";
+@import "./iframes";
+@import "./header";
+@import "./footer";
+@import "./aboutus";
+@import "./contactus";
+@import "./givingback";
+@import "home-page";
+@import "./maps.css";
+@import "./our-menu.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root {
+    --h1: 70px;
+    --h2: 50px;
+    --black: #222;
+    --lime: #eef0ef;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.4em 0px;
+}
+
+.givingback-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sides {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sides-pics {
+    padding: 0.3%;
+    max-width: 18rem;
+    max-height: 15rem;
+    flex: 1;
+}
+
+body {
+    color: #fefefecc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-outline-primary {
+    color: #e3e3e3;
+    border: 1px solid #cc7500;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    margin: 15px;
+    min-width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:visited, .btn-outline-primary:focus {
+    color: #fff;
+    background-color: #cc7500;
+    border-color: #cc7500;
+}
+
+.btn-toolbar {
+    justify-content: center;
+}
+
+.dropdown-menu {
+    background-color: #cc7500;
+}
+
+.dropdown-menu a:visited {
+    background-color: #e3e3e3;
+}
+
+hr {
+    display: block;
+    border-color: #e29503;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0px;
+}
+
+.index-overlay {
+    background-color: rgb(36, 36, 36);
+    padding: 20px 20px;
+}

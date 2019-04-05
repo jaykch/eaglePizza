@@ -1,0 +1,18 @@
+.my-header {
+    background-color: #242424;
+}
+
+.my-header-pic {
+    height: 2%;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+/*---------------------Media  Queries-------------------------*/
+@media only screen and (max-width: 764px) {
+    .my-header-pic {
+        width: 100%;
+    }
+}
