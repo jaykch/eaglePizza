@@ -7,8 +7,8 @@ import LegendaryRange from '../static/images/legendary-range.jpg';
 import TraditionalRange from '../static/images/traditional-range.jpg';
 
 import Deal1 from '../static/images/deals-images/deal1.jpg';
-import Deal3 from '../static/images/deals-images/deal2.jpg';
-import Deal2 from '../static/images/deals-images/deal3.jpg';
+import Deal2 from '../static/images/deals-images/deal2.jpg';
+import Deal3 from '../static/images/deals-images/deal3.jpg';
 
 const HomePage = () => (
     <div>
@@ -18,25 +18,28 @@ const HomePage = () => (
             <Col xs md={7}>
                 <Carousel>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={Deal1}
-                            alt="First slide"
-                        />
+                        <img className="d-block w-100" src={Deal1} alt="First slide"/>
+                        <Carousel.Caption className="text-left">
+                            <span>1 Side</span><br/>
+                            <span>1 Pizza</span><br/>
+                            <span>1.25L Soft Drink</span><br/>
+                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={Deal2}
-                            alt="Second Deal"
-                        />
+                        <img className="d-block w-100" src={Deal2} alt="Second Deal"/>
+                        <Carousel.Caption className="text-left">
+                            <span>2 Sides</span><br/>
+                            <span>2 Pizzas</span><br/>
+                            <span>1.25L Soft Drink</span>
+                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={Deal3}
-                            alt="Third Deal"
-                        />
+                        <img className="d-block w-100" src={Deal3} alt="Third Deal"/>
+                        <Carousel.Caption className="text-left">
+                            <span>2 Sides</span><br/>
+                            <span>3 Pizzas</span><br/>
+                            <span>1.25L Soft Drink</span>
+                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </Col>
@@ -45,7 +48,8 @@ const HomePage = () => (
         <br/>
         <Row className="justify-content-center">
             <ButtonToolbar>
-                <a href="http://eaglepizzas.com.au/menu/" target="_blank" className="btn-outline-primary btn-lg">
+                <a href="https://orderonline.eaglespizza.com.au/" target="_blank"
+                   className="btn-outline-primary btn-lg">
                     Order Now
                 </a>
             </ButtonToolbar>

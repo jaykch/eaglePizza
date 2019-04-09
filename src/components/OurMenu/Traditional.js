@@ -15,6 +15,7 @@ import Supreme from '../../static/images/traditional/supreme.jpg';
 import Vegetarian from '../../static/images/traditional/vegetarian.jpg';
 import Lambsoulvaki from '../../static/images/traditional/Lamb-Souvlaki.jpg';
 import Chipotlebeef from '../../static/images/traditional/Chipotle_beef_and_onion.jpg';
+import Capricossa from '../../static/images/value/logo.png';
 
 const Traditional = () => (
     <div>
@@ -47,6 +48,20 @@ const Traditional = () => (
                 <p>
                     Aussie – Tomato Sauce, Mozzarella Cheese, Bacon, Onion and Egg.
                     Small $5.95 Medium $7.95 Large $9.95 Family $13.95
+                </p>
+            </div>
+        </div>
+
+        <div className="product-container">
+            <div className="product-image">
+                <a href="https://orderonline.eaglespizza.com.au/">
+                    <img className="menu-pics pointer" alt={Capricossa} src={Capricossa}/>
+                </a>
+            </div>
+            <div className="product-desc">
+                <p>
+                    Capricossa – Tomato Sauce, Mozzarella Cheese, Ham, Mushroom, Onion, Olives and Garlic. Small $5.95
+                    Medium $7.95 Large $9.95 Family $13.95
                 </p>
             </div>
         </div>
