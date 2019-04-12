@@ -28,7 +28,7 @@ const HomePage = () => (
                     <Carousel.Item>
                         <img className="d-block w-100" src={Deal2} alt="Second Deal"/>
                         <Carousel.Caption className="text-left">
-                            <span>2 Sides</span><br/>
+                            <span>1 Side</span><br/>
                             <span>2 Pizzas</span><br/>
                             <span>1.25L Soft Drink</span>
                         </Carousel.Caption>
